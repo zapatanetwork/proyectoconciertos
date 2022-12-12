@@ -1,0 +1,267 @@
+
+@media (max-width:1246px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #eslogan {
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+
+}
+
+@media (max-width:917px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #eslogan {
+        font-size: 0.8em;
+        letter-spacing: 2px;
+    }
+
+    #logo>a>img {
+        width: 30px;
+        height: 53px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    #menu>ul {
+        gap: 1em;
+    }
+
+    #menu>ul>li {
+        font-size: 0.8em;
+        height: 1.8em;
+    }
+
+    /* HEADER / REDES ---------------------------------------------------------------------------------- */
+
+    #redes>ul {
+        gap: 0.9em;
+    }
+    
+    #redes>ul>li>a {
+        font-size: 1em;
+    }
+
+    /* MAIN - SECCIONES DONDE IRÁN NUESTROS FESTIVALES CON
+    SUS NOMBRES, IMAGEN Y CIUDAD ------------------------------------------------------------- */
+
+    #uno {
+        height: 15em;
+        gap: 10px;
+    }
+
+    #dos {
+        height: 15em;
+        gap: 10px;
+    }
+
+    #tres {
+        height: 15em;
+        gap: 10px;
+    }
+
+    #cuatro {
+        height: 15em;
+        gap: 10px;
+    }
+
+    #texto>p {
+        padding: 10px 0 0 0;
+        font-size: 12px;
+
+    }
+
+    /* MAIN - ICONO PARA SUBIR --------------------------------------------------------------- */
+
+    #flecha {
+        height: 3em;
+    }
+
+    #flecha>i {
+        font-size: 1.7em;
+    }
+
+    #flecha>i:hover{
+        font-size: 1.9em;
+    }
+}
+
+@media (max-width:788px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #eslogan {
+        font-size: 0.8em;
+        letter-spacing: 1px;
+    }
+
+        /* MAIN - SECCIONES DONDE IRÁN NUESTROS FESTIVALES CON
+    SUS NOMBRES, IMAGEN Y CIUDAD ------------------------------------------------------------- */
+
+    #uno {
+        height: 9em;
+        gap: 8px;
+    }
+
+    #dos {
+        height: 9em;
+        gap: 8px;
+    }
+
+    #tres {
+        height: 9em;
+        gap: 8px;
+    }
+
+    #cuatro {
+        height: 9em;
+        gap: 8px;
+    }
+
+    #texto>p {
+        padding: 10px 0 0 0;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:658px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #logo {
+       width: 12%; 
+    }
+    
+
+    #logo>a>img {
+        width: 30px;
+        height: 53px;
+    }
+
+    #menu>ul {
+        padding-left: 8px;
+        gap: 0.6em;
+    }
+
+    #menu>ul>li:nth-of-type(1) {
+        padding-left: 9px;
+    }
+
+    #eslogan {
+        display: none;
+    }
+
+    /* HEADER - REDES ---------------------------------------------------------------------------------- */
+
+    #redes {
+        width: 33%;
+    }
+
+    /* MAIN - ICONO PARA SUBIR --------------------------------------------------------------- */
+
+    #flecha {
+        height: 2em;
+    }
+
+    #flecha>i {
+        font-size: 1.3em;
+    }
+
+    #flecha>i:hover{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:502px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #menu>ul>li {
+        font-size: 0.7em;
+        height: 1.8em;
+    }
+
+        /* MAIN - SECCIONES DONDE IRÁN NUESTROS FESTIVALES CON
+    SUS NOMBRES, IMAGEN Y CIUDAD ------------------------------------------------------------- */
+
+    #uno {
+        display: inline-block;
+        padding: 40px 0 23px 0;
+    }
+
+    #uno>div {
+        width: 18em;
+        height: 14em;
+        margin: auto;
+        padding-bottom: 1.7em;
+    }
+
+    #uno>div>a>div {
+        border-radius: 10%;
+    }
+    
+    
+    #imagen>img {
+        border-radius: 10%;
+    }
+
+    #dos {
+        display: inline-block;
+    }
+
+    #dos>div {
+        width: 18em;
+        height: 14em;
+        margin: auto;
+        padding-bottom: 1.7em;
+    }
+
+    #dos>div>a>div {
+        border-radius: 10%;
+    }
+
+    #tres {
+        display: inline-block;
+    }
+
+    #tres>div {
+        width: 18em;
+        height: 14em;
+        margin: auto;
+        padding-bottom: 1.7em;
+    }
+
+    #tres>div>a>div {
+        border-radius: 10%;
+    }
+
+    #cuatro {
+        display: inline-block;
+    }
+
+    #cuatro>div {
+        width: 18em;
+        height: 14em;
+        margin: auto;
+        padding-bottom: 1.7em;
+    }
+
+    #cuatro>div>a>div {
+        border-radius: 10%;
+    }
+
+    #texto>p {
+        padding: 5px 0 0 0;
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+

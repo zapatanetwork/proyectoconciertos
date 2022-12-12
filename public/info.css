@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+:root {
+    --grisoscuro: rgb(24,24,24);
+    --grismasoscuro: rgb(20,20,20);
+    --otrogris: #232323;
+    --grisclarito: rgb(56,56,56);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./img/fondo/festival2.jpg");
+    background-position-y: 40%;
+}
+
+/* HEADER -----------------------------------------------------------------------------------------------*/
+
+header {
+    margin-top: 1em;
+    margin-left: 2.5%;
+    width: 95%;
+    height: 4em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+}
+
+/* HEADER / LOGO, ESLOGAN Y MENU ----------------------------------------------------------------------*/
+
+#logo {
+    width: 6%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s;
+    transition-duration: 1.5s ease-in-out;
+      
+    -webkit-transition-property: -webkit-transform;
+    -o-transition-property: -o-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+}
+
+#logo>a {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#logo>a>img {
+    width: 40px;
+    height: 63px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#logo:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#eslogan {
+    width: 18%;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'League Gothic', sans-serif;
+    letter-spacing: 3px;
+}
+
+#menu {
+    width: 65%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#menu>ul {
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    align-self: center;
+    align-items: center;
+}
+
+#menu>ul>li {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2em;
+    height: 1.8em;
+    display: flex;
+    align-items: center;
+}
+
+#menu>ul>li:nth-of-type(1) {
+    border-left: 1px solid gray;
+    border-width: 2px;
+    padding-left: 18px;
+    margin-left: 0;
+}
+
+#menu>ul>li>a {
+    text-decoration: none;
+    color: gray;
+}
+
+#menu>ul>li:nth-of-type(2)>a {
+    color: black;
+}
+
+#menu>ul>li>a:hover {
+    color: black;
+    -webkit-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+}
+
+/* HEADER / REDES ---------------------------------------------------------------------------------- */
+
+#redes {
+    width: 15%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+}
+
+#redes>ul {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.3em;
+    list-style: none;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 1em;
+}
+
+#redes>ul>li>a {
+    font-size: 1.5em;
+    color: black;
+}
+
+#redes>ul>li:nth-of-type(1)>a:hover {
+    color: deeppink;
+    -webkit-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+}
+
+#redes>ul>li:nth-of-type(2)>a:hover {
+    color: cadetblue;
+    -webkit-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+}
+
+
+/* MAIN ---------------------------------------------------------------------------------- */
+
+main {
+    margin: 20px 0 20px 2.5%;
+    width: 95%;
+    background-color: white;
+    padding: 5px 0px 10px 0px;
+}
+
+h2 {
+    padding: 15px 0 8px 15px;
+    font-size: 26px;
+    margin-bottom: -10px;
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+    text-align: center;
+}
+
+p {
+    padding: 0 30px 15px 30px;
+    font-size: 21px;
+    color: var(--grisclarito);
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+p:nth-last-of-type(1) {
+    padding-bottom: 20px;
+}

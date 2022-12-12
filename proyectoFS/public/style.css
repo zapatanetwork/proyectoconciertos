@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+:root {
+    --grisoscuro: rgb(24,24,24);
+    --grismasoscuro: rgb(20,20,20);
+    --otrogris: #232323;
+    --grisclarito: rgb(56,56,56);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./img/fondo/festival3.jpg");
+    background-position-y: 40%;
+}
+
+/* HEADER -----------------------------------------------------------------------------------------------*/
+
+header {
+    margin-top: 1em;
+    margin-left: 2.5%;
+    width: 95%;
+    height: 4em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+}
+
+/* HEADER / LOGO, ESLOGAN Y MENU ----------------------------------------------------------------------*/
+
+#logo {
+    width: 6%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s;
+    transition-duration: 1.5s ease-in-out;
+      
+    -webkit-transition-property: -webkit-transform;
+    -o-transition-property: -o-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+}
+
+#logo>a {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#logo>a>img {
+    width: 40px;
+    height: 63px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#logo:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#eslogan {
+    width: 18%;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'League Gothic', sans-serif;
+    letter-spacing: 3px;
+}
+
+#menu {
+    width: 65%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#menu>ul {
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    align-self: center;
+    align-items: center;
+}
+
+#menu>ul>li {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2em;
+    height: 1.8em;
+    display: flex;
+    align-items: center;
+}
+
+#menu>ul>li:nth-of-type(1) {
+    border-left: 1px solid gray;
+    border-width: 2px;
+    padding-left: 18px;
+    margin-left: 0;
+}
+
+#menu>ul>li>a {
+    text-decoration: none;
+    color: gray;
+}
+
+#menu>ul>li:nth-of-type(1)>a {
+    color: black;
+}
+
+#menu>ul>li>a:hover {
+    color: black;
+    -webkit-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+}
+
+/* HEADER / REDES ---------------------------------------------------------------------------------- */
+
+#redes {
+    width: 15%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+}
+
+#redes>ul {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.3em;
+    list-style: none;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 1em;
+}
+
+#redes>ul>li>a {
+    font-size: 1.5em;
+    color: black;
+}
+
+#redes>ul>li:nth-of-type(1)>a:hover {
+    color: deeppink;
+    -webkit-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+}
+
+#redes>ul>li:nth-of-type(2)>a:hover {
+    color: cadetblue;
+    -webkit-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+}
+
+
+/* MAIN ---------------------------------------------------------------------------------- */
+
+main {
+    margin: 20px 0 20px 2.5%;
+    width: 95%;
+    background-color: white;
+}
+
+/* MAIN - SECCIONES DONDE IRÁN NUESTROS FESTIVALES CON
+SUS NOMBRES, IMAGEN Y CIUDAD ------------------------------------------------------------- */
+
+#uno {
+    width: 100%;
+    height: 20em;
+    padding: 25px 0 20px 0;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#uno>div {
+    width: 23%;
+    height: 100%;   
+}
+
+#uno>div>a {
+    text-decoration: none;
+}
+
+#uno>div>a>div:nth-of-type(1) {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#uno>div>a>div>div {
+    width: 95%;
+    height: 100%;
+}
+
+#uno>div>a>div:hover #imagen {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+}
+
+#uno>div>a>div {
+    overflow:hidden;
+    border-radius: 13%;
+}
+
+
+#imagen>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 13%;
+}
+
+#texto>p {
+    margin: 0;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--grisoscuro);
+}
+
+#texto>p:nth-of-type(2) {
+    color: var(--grisclarito);
+}
+
+#dos {
+    width: 100%;
+    height: 20em;
+    padding: 15px 0 20px 0;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#dos>div {
+    width: 23%;
+    height: 100%;
+}
+
+#dos>div>a {
+    text-decoration: none;
+}
+
+#dos>div>a>div:nth-of-type(1) {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#dos>div>a>div>div {
+    width: 95%;
+    height: 100%;
+}
+
+#dos>div>a>div:hover #imagen {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+    
+}
+
+#dos>div>a>div {
+    overflow:hidden;
+    border-radius: 13%;
+}
+
+
+#tres {
+    width: 100%;
+    height: 20em;
+    padding: 15px 0 20px 0;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#tres>div {
+    width: 23%;
+    height: 100%;
+}
+
+#tres>div>a {
+    text-decoration: none;
+}
+
+#tres>div>a>div:nth-of-type(1) {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#tres>div>a>div>div {
+    width: 95%;
+    height: 100%;
+}
+
+#tres>div>a>div:hover #imagen {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+    
+}
+
+#tres>div>a>div {
+    overflow:hidden;
+    border-radius: 13%;
+}
+
+#cuatro {
+    width: 100%;
+    height: 20em;
+    padding: 20px 0 25px 0;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#cuatro>div {
+    width: 23%;
+    height: 100%;
+}
+
+#cuatro>div>a {
+    text-decoration: none;
+}
+
+#cuatro>div>a>div:nth-of-type(1) {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#cuatro>div>a>div>div {
+    width: 95%;
+    height: 100%;
+}
+
+#cuatro>div>a>div:hover #imagen {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+    
+}
+
+#cuatro>div>a>div {
+    overflow:hidden;
+    border-radius: 13%;
+}
+
+/* MAIN - ICONO PARA SUBIR --------------------------------------------------------------- */
+
+#flecha {
+    text-align: right;
+    height: 4em;
+}
+
+#flecha>i {
+    padding: 0 15px 15px 0;
+    font-size: 2.7em;
+    text-align: right;
+    background-color: black;
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+    -webkit-transition: .2s ease-in-out;
+	-o-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+#flecha>i:hover{
+    font-size: 2.9em;
+    background-color: MediumOrchid;
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+}

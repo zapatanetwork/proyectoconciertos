@@ -1,0 +1,128 @@
+
+@media (max-width:1246px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #eslogan {
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+
+}
+
+@media (max-width:917px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #eslogan {
+        font-size: 0.8em;
+        letter-spacing: 2px;
+    }
+
+    #logo>a>img {
+        width: 30px;
+        height: 53px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    #menu>ul {
+        gap: 1em;
+    }
+
+    #menu>ul>li {
+        font-size: 0.8em;
+        height: 1.8em;
+    }
+
+    /* HEADER / REDES ---------------------------------------------------------------------------------- */
+
+    #redes>ul {
+        gap: 0.9em;
+    }
+    
+    #redes>ul>li>a {
+        font-size: 1em;
+    }
+
+    /* MAIN  -------------------------------------------------------------------------------------------- */
+
+    h2 {
+        font-size: 18px;
+    }
+      
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:788px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #eslogan {
+        font-size: 0.8em;
+        letter-spacing: 1px;
+    }
+ 
+    /* MAIN  -------------------------------------------------------------------------------------------- */
+
+    h2 {
+        font-size: 12px;
+    }
+      
+    p {
+        font-size: 9px;
+    }
+
+
+}
+
+@media (max-width:658px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #logo {
+       width: 12%; 
+    }
+    
+
+    #logo>a>img {
+        width: 30px;
+        height: 53px;
+    }
+
+    #menu>ul {
+        padding-left: 8px;
+        gap: 0.6em;
+    }
+
+    #menu>ul>li:nth-of-type(1) {
+        padding-left: 9px;
+    }
+
+    #eslogan {
+        display: none;
+    }
+
+    /* HEADER / REDES ---------------------------------------------------------------------------------- */
+
+    #redes {
+        width: 33%;
+    }
+}
+
+@media (max-width:502px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #menu>ul>li {
+        font-size: 0.7em;
+        height: 1.8em;
+    }
+
+
+    h2 {
+        padding: 15px 15px 8px 15px;
+    }
+}

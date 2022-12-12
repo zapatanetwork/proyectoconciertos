@@ -1,0 +1,173 @@
+
+@media (max-width:1246px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #eslogan {
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+
+}
+
+@media (max-width:917px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #eslogan {
+        font-size: 0.8em;
+        letter-spacing: 2px;
+    }
+
+    #logo>a>img {
+        width: 30px;
+        height: 53px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    #menu>ul {
+        gap: 1em;
+    }
+
+    #menu>ul>li {
+        font-size: 0.8em;
+        height: 1.8em;
+    }
+
+    /* HEADER / REDES ---------------------------------------------------------------------------------- */
+
+    #redes>ul {
+        gap: 0.9em;
+    }
+    
+    #redes>ul>li>a {
+        font-size: 1em;
+    }
+
+    /* MAIN ---------------------------------------------------------------------------------- */
+
+    #container {
+        gap: 7em;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+        padding-bottom: 10px;
+    }
+    
+    #container>div>select {
+        font-size: 15px;
+        margin: 10px 0 30px 0;
+    }
+    
+    #arriba {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:788px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #eslogan {
+        font-size: 0.8em;
+        letter-spacing: 1px;
+    }
+
+}
+
+@media (max-width:658px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #logo {
+       width: 12%; 
+    }
+    
+
+    #logo>a>img {
+        width: 30px;
+        height: 53px;
+    }
+
+    #menu>ul {
+        padding-left: 8px;
+        gap: 0.6em;
+    }
+
+    #menu>ul>li:nth-of-type(1) {
+        padding-left: 9px;
+    }
+
+    #eslogan {
+        display: none;
+    }
+
+    /* HEADER - REDES ---------------------------------------------------------------------------------- */
+
+    #redes {
+        width: 33%;
+    }
+
+    /* MAIN ---------------------------------------------------------------------------------- */
+
+    #container {
+        gap: 5em;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+        padding-bottom: 10px;
+    }
+    
+    #container>div>select {
+        font-size: 12px;
+        margin: 10px 0 15px 0;
+    }
+    
+    #arriba {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:502px) {
+
+    /* HEADER  ---------------------------------------------------------------------------------- */
+
+    #menu>ul>li {
+        font-size: 0.7em;
+        height: 1.8em;
+    }
+
+    /* MAIN ---------------------------------------------------------------------------------- */
+
+    #container {
+        gap: 1em;
+    }
+    
+    h1 {
+        font-size: 1em;
+        padding-bottom: 7px;
+    }
+    
+    #container>div>select {
+        font-size: 8px;
+        margin: 8px 0 10px 0;
+    }
+    
+    #arriba {
+        font-size: 11px;
+    }
+
+    .button-75 {
+        font-size: 8px;
+        height: 30px;
+      }
+    
+      .button-75 span {
+        line-height: 30px;
+      }
+
+}
